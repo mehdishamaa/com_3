@@ -7,4 +7,5 @@
 
 
 
+
 ![SQL Cheat Sheet](https://cdn.sqltutorial.org/wp-content/uploads/2016/04/SQL-Cheet-Sheet-1.png)
