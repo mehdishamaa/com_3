@@ -1,17 +1,5 @@
 ###### **Python Variables**
 
-# Lets create a variable:
-
-# Age = 21 # type of integer
-# NHS = 123456 # type of float
-# name = "Mehdi" # type of string
-# salary = 50000
-
-# Add the variable called x and the variable called name and display
-
-# name = input("Please enter your name ")
-# print(name)
-
 
 # Create a variable called first_name and last_name
 
