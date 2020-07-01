@@ -17,7 +17,7 @@ cities[3] = "Amsterdam"
 
 print(cities)
 
-# Let's add a city to the dictionary:
+# Let's add a city to the list:
 
 cities.append("Vilnius")
 
