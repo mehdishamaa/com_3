@@ -53,21 +53,21 @@ class Python_Calculator:
         return num1 / num2
 
 
-object = Python_Calculator
+
+    print(int(input("Please choose your operation:")))
+    if input == 1:
+        object.add_values(num1, num2)
+    elif input == 2:
+        object.subtract_values(num1, num2)
+    elif input == 3:
+        object.multiply_values(num1, num2)
+    elif input == 4:
+        object.divide_values(num1, num2)
 
 
 num1 = print(int(input("Please input your first number")))
 num2 = print(int(input("Please input your second number")))
 
-print(int(input("Please choose your operation:")))
-if input == 1:
-    onject.add_values(num1, num2)
-elif input == 2:
-    object.subtract_values(num1, num2)
-elif input == 3:
-    object.multiply_values(num1, num2)
-elif input == 4:
-    object.divide_values(num1, num2)
 
 
 
