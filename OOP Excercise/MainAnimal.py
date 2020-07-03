@@ -10,7 +10,7 @@ class Animal():
         print(self.status())
 
     def status(self):                                      # Here we create a 'status' function, showing us all an animals vital signs
-        return(self.gender, self.hunger, self.health)
+        return(self.gender, self.hunger, self.health, self.mood)
 
 
     def eat(self):
@@ -22,8 +22,8 @@ class Animal():
 human = Animal("Male", 50, 100)                            # Here we create a sub class of animal called a 'human'
                                                            # We set their variables and can call them quickly using 'human.status'
 
-print(human.eat())                                         # Here we are instructing the animal to eat, decreasing their hunger by 6 points
-print(human.eat())
+                                                           # Here we are instructing the animal to eat, decreasing their hunger by 6 points
+
 
 
 
