@@ -10,21 +10,30 @@
 # J, X                               8
 # Q, Z                               10
 
-scrabble_dictionary = {tuple(["A", "E", "I", "O", "U", "L", "N", "R", "S", "T"]): 1, tuple(["D", "G"]): 2,
-                       tuple(["B", "C", "M", "P"]): 3,
-                       tuple(["F", "H", "V", "W", "Y"]): 4, tuple(["J", "X"]): 8, tuple(["Q", "Z"]): 10
-                       }
+scrabble_dictionary = {"a": 1, "b": 3, "c": 3, "d": 2,
+                 "e": 1, "f": 4, "g": 2, "h": 4,
+                 "i": 1, "j": 8, "k": 5, "l": 1,
+                 "m": 3, "n": 1, "o": 1, "p": 3,
+                 "q": 10, "r": 1, "s": 1, "t": 1,
+                 "u": 1, "v": 4, "w": 4, "x": 8,
+                 "y": 4, "z": 10}
 
 
+user_word = input("Please type in your Scrabble word:")
 
 
-def scrabble_calc():
+def scrabble_calc(user_word):
     scrabble_points = 0
-    word = input("Please type in your Scrabble word:")
-    for i in word:
+    for i in user_word:
+        i = i.lower()
         scrabble_points = scrabble_points + scrabble_dictionary[i]
         return scrabble_points
 
 
-print(scrabble_calc(word))
+print(scrabble_calc(user_word))
+
+
+
+
+
 
