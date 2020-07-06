@@ -12,6 +12,8 @@ class calc():
         return self.num1 - self.num2
     def rem(self):
         return self.num1 % self.num2
+    def inch(self):
+        return self.num1 * 2.54
 num1 = int(input("Please enter your first number:"))
 num2 = int(input("Please enter your second number:"))
 obj = calc(num1, num2)
@@ -22,6 +24,7 @@ while choice!=0:
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
+    print("5. Convert inches to cm")
     choice = int(input("Please choose an operation:"))
     if choice == 1:
         print("Answer:", obj.add())
@@ -31,6 +34,8 @@ while choice!=0:
         print("Answer:", obj.mul())
     elif choice == 4:
         print("Answer", obj.div())
+    elif choice == 5:
+        print("Answer", obj.inch())
     elif choice == 0:
         print("Exiting program...")
     else:
