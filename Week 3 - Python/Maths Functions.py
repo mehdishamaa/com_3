@@ -1,4 +1,4 @@
-# How can we use the builtin Python library?
+# How can we use the builtin Python HW library?
 
 from random import random
 import math #import built in modules
