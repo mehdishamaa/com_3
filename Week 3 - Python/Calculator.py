@@ -8,37 +8,37 @@ class Calculator:
         self.num1 = num1
         self.num2 = num2
 
-    def add(self):
-        return self.num1 + self.num2
+    def add():
+        return num1 + num2
 
-    def mul(self):
-        return self.num1 * self.num2
+    def mul():
+        return num1 * num2
 
-    def div(self):
-        return self.num1 / self.num2
+    def div():
+        return num1 / num2
 
-    def sub(self):
-        return self.num1 - self.num2
+    def sub():
+        return num1 - num2
 
-print("1. Addition");
-print("2. Subtraction");
-print("3. Multiplication");
-print("4. Division");
-print("5. Exit");
-operation = int(input("Enter your choice: "));
+print("1. Addition")
+print("2. Subtraction")
+print("3. Multiplication")
+print("4. Division")
+print("5. Exit")
+operation = int(input("Enter your choice: "))
 
 
 num1 = int(input("Please enter your first number:"))
 num2 = int(input("Please enter your second number:"))
 
 if operation == 1:
-    print("Result = ", Calculator.add());
+    print("Result = ", Calculator.add())
 elif operation == 2:
-    print("Result = ", Calculator.sub());
+    print("Result = ", Calculator.sub())
 elif operation == 3:
-    print("Result = ", Calculator.mul());
+    print("Result = ", Calculator.mul())
 elif operation == 4:
-    print("Result = ", Calculator.div());
+    print("Result = ", Calculator.div())
 elif operation == 5:
     exit();
 else:
