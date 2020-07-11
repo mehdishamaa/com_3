@@ -1,10 +1,14 @@
 ## **Strings and Variables**
 
+
 **String:** A string is simply a series of characters.
+
 
 This would be an example of a  string:
 
 ```name = "Mehdi Shamaa```
+
+
 
 **What can we do with strings?:**
 
@@ -17,6 +21,8 @@ For example:
 would output:
 
 ```MEHDI SHAMAA```
+
+
 
 Here is a table of methods we can use with strings:
 
