@@ -38,5 +38,30 @@ Here is a table of methods we can use with strings:
 | **replace**    | Replace text in a string with the string specified                      | string.replace('text', 't') |
 | **startswith** | Returns either True or False if the string starts with the given string | string.startswith('t')      |
 
+###String Slicing:
 
 
+```
+hello = "Hello World!"
+
+print(hello[10])
+
+print(hello[6:11])
+```
+
+Take the above code. The first print command would print the the tenth indexed character in the string, which would be 'd'.
+
+The second print command would the sixth character up to but not including the eleventh character, printing 'World' 
+
+
+
+
+The count method can also be used in the following way:
+
+```
+dog = "the dog walked in the park with his friend the cat"
+
+print(dog.count("the"))
+```
+
+The above command would ask the program to print the count of the amount of times the word "the" appears in the string, returning a value of 2.
