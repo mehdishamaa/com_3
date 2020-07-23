@@ -1,9 +1,9 @@
 import pyodbc
 
 class OOP_Database:
-
-    def connection_parameters(self):                        # Pass in connection parameters
-                                                        # Initialising connection using parameters
+    # Pass in connection parameters
+    def connection_parameters(self):
+    # Initialising connection using parameters
         server = 'databases2.spartaglobal.academy'
         database = 'Northwind'
         username = 'SA'

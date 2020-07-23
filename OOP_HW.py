@@ -1,8 +1,10 @@
 import pyodbc
 import self as self
 
+# Here we are importing our OOP_Database class from OOP_Databases file
 from OOP_Databases import OOP_Database
 
+# Next we create a Queries class
 
 class Queries:
 
@@ -24,4 +26,4 @@ class Queries:
 
        
 object = Queries()
-object.product_avg()
+object.product_query()
